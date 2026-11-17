@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>About | Justice Case</title>
+<meta name="description" content="How Justice Case briefs are made and checked, sources, privacy, and limits.">
+<link rel="canonical" href="https://justicecase.ai/about/">
+<meta property="og:title" content="About | Justice Case">
+<meta property="og:description" content="How Justice Case briefs are made and checked, sources, privacy, and limits.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../"><span class="brand-mark" aria-hidden="true">§</span>Justice Case</a>
+  <nav class="nav"><a href="../">Case library</a><a href="https://claude.ai/artifact/H6jCUg8mva5C93R2BH1SmS" rel="noopener">Brief any case</a><a href="../about/">About</a></nav>
+  <button type="button" class="icon-btn" id="theme" aria-label="Switch color theme">Theme</button>
+</header>
+
+<main class="prose">
+  <h1>About Justice Case</h1>
+  <h2>How the briefs are made</h2>
+  <p>Each case's opinion comes from CourtListener, the Free Law Project's free database of court opinions. An AI model writes the brief using only that opinion. A second step lists every assertion in the brief, and two different AI models (Claude and an OpenAI model) each check every assertion against the opinion, quoting the passage they relied on. Every quote is then checked word for word against the opinion text. Each brief page shows the results, and you can click any quote to see it in the opinion.</p>
+  <p>The brief format and study approach are adapted from Anthropic's open-source <a href="https://github.com/anthropics/claude-for-legal" rel="noopener">law-student plugin</a> (Apache License 2.0).</p>
+  <h2>Use it to learn, not instead of learning</h2>
+  <p>A brief you didn't write is a brief you won't remember. Try <strong>Write it yourself first</strong> on any case page, or turn on <strong>Cold-call quiz</strong> to hide the answers. Before using any AI tool for graded work, check your school's honor code and your professor's syllabus.</p>
+  <h2>Not legal advice</h2>
+  <p>This is a study aid. Briefs can be wrong even after checking, and later history (appeals, cases that limit or overrule a decision) isn't checked. Nothing here is legal advice. If you're dealing with a real legal problem, contact a lawyer, legal aid, or your school's clinic.</p>
+  <h2>Sources and rights</h2>
+  <p>U.S. court opinions are public records and not subject to copyright. Opinion text is from <a href="https://www.courtlistener.com/" rel="noopener">CourtListener</a>. The briefs are original summaries; no casebook or commercial headnote content is used.</p>
+  <h2>Privacy</h2>
+  <p>This site has no accounts, cookies, analytics, or trackers, and it loads nothing from other sites. It's hosted on GitHub Pages, which, like any web host, may log visitors' IP addresses for security (see GitHub's privacy statement). Practice answers you type stay in your browser and are never sent anywhere. Justice Case Live, the optional tool for briefing other cases, runs on claude.ai under your own Claude account and Anthropic's privacy policy.</p>
+  <h2>Contact</h2>
+  <p><a href="mailto:contact@justicecase.ai">contact@justicecase.ai</a></p>
+</main>
+<footer class="footer">
+  <p><strong>A study aid, not legal advice.</strong> Briefs are AI-generated and fact-checked against the court's opinion, but can still be wrong. Later history (appeals, overrulings) isn't checked. Always read the opinion and follow your school's honor code.</p>
+  <p>Opinions from <a href="https://www.courtlistener.com/" rel="noopener">CourtListener</a> (Free Law Project). <a href="../about/">About, sources &amp; privacy</a> · <a href="mailto:contact@justicecase.ai">contact@justicecase.ai</a></p>
+</footer>
+</body>
+</html>

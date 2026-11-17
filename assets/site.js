@@ -459,7 +459,10 @@
     const list = marks();
     if (list.length >= MAX_MARKS) { $("hl-count").textContent = `Limit of ${MAX_MARKS} highlights on one case reached`; hidePalette(); return; }
     const [start, end] = pendingRange;
-    const mark = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), start, end, color: btn.dataset.color, text: opinion.slice(start, end).slice(0, MAX_TEXT), note: "" };
+    const used = new Set(list.map((m) => m.slot));
+    let slot = 0;
+    while (used.has(slot)) slot++;  // a stable place for this highlight in the student's account (0-399)
+    const mark = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), slot, start, end, color: btn.dataset.color, text: opinion.slice(start, end).slice(0, MAX_TEXT), note: "" };
     if (mark.text.length < end - start) mark.end = start + mark.text.length;
     getSelection().removeAllRanges();
     hidePalette();

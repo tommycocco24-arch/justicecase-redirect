@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; font-src 'self'; frame-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <title>About | Justice Case</title>
 <meta name="description" content="How Justice Case briefs are made and checked, sources, privacy, and limits.">
@@ -17,7 +17,7 @@
 <body>
 <header class="topbar">
   <a class="brand" href="../"><span class="brand-mark" aria-hidden="true">§</span>Justice Case</a>
-  <nav class="nav"><a href="../">Case library</a><a href="https://claude.ai/artifact/H6jCUg8mva5C93R2BH1SmS" rel="noopener">Brief any case</a><a href="../hornbooks/">Hornbooks</a><a href="../about/">About</a></nav>
+  <nav class="nav"><a href="../">Case library</a><a href="https://claude.ai/artifact/H6jCUg8mva5C93R2BH1SmS" rel="noopener">Brief any case</a><a href="../hornbooks/">Hornbooks</a><a href="../casebook/" id="nav-account">My casebook</a><a href="../about/">About</a></nav>
   <button type="button" class="icon-btn" id="theme" aria-label="Switch color theme">Theme</button>
 </header>
 
@@ -33,7 +33,10 @@
   <h2>Sources and rights</h2>
   <p>U.S. court opinions are public records and not subject to copyright. Opinion text is from <a href="https://www.courtlistener.com/" rel="noopener">CourtListener</a> (Free Law Project), the <a href="https://case.law/" rel="noopener">Caselaw Access Project</a> (Harvard Law School Library), or the <a href="https://www.loc.gov/collections/united-states-reports/" rel="noopener">U.S. Reports at the Library of Congress</a>; only the courts' opinions are used, never reporter headnotes. The briefs are original summaries; no casebook or commercial headnote content is used.</p>
   <h2>Privacy</h2>
-  <p>This site has no accounts, cookies, analytics, or trackers, and it loads nothing from other sites. It's hosted on GitHub Pages, which, like any web host, may log visitors' IP addresses for security (see GitHub's privacy statement). Practice answers you type stay in your browser and are never sent anywhere. Justice Case Live, the optional tool for briefing other cases, runs on claude.ai under your own Claude account and Anthropic's privacy policy.</p>
+  <p>This site has no ads, analytics, or trackers. It's hosted on GitHub Pages, which, like any web host, may log visitors' IP addresses for security (see GitHub's privacy statement). Reading briefs never needs an account.</p>
+  <p><strong>Without an account,</strong> the cases you save, your notes, and your practice answers stay in your browser and are never sent anywhere.</p>
+
+  <p>Justice Case Live, the optional tool for briefing other cases, runs on claude.ai under your own Claude account and Anthropic's privacy policy.</p>
   <h2>Contact</h2>
   <p><a href="mailto:contact@justicecase.ai">contact@justicecase.ai</a></p>
 </main>

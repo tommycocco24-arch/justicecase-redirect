@@ -173,3 +173,30 @@ button, input, textarea { font: inherit; color: inherit; }
 .hb-kind { font-size: 12px; color: var(--ink-2); }
 .hb-kind.historical { color: var(--amber-fg); }
 a.chip { text-decoration: none; }
+
+/* Casebook and accounts */
+.accounts-only, .signed-in-only { display: none; }
+.accounts-on .accounts-only { display: revert; }
+.accounts-on.signed-in .signed-in-only { display: block; }
+.signed-in .signed-out-only { display: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.notes-card { max-width: 780px; margin: 16px 0 0; padding: 14px 20px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+.notes-card h2 { margin: 0 0 8px; font: 600 12px var(--f-ui); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); }
+.notes-card textarea, .email-form input { width: 100%; border: 1px solid var(--border-strong); border-radius: 6px; padding: 8px 10px; background: var(--bg); }
+.notes-card textarea { font: 16px/1.5 var(--f-read); resize: vertical; }
+.notes-hint { margin: 6px 0 0; font-size: 12.5px; color: var(--muted); }
+.sync-status { color: var(--ok-fg); }
+#save-case[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+.account-box { max-width: 780px; margin: 0 0 20px; padding: 16px 20px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+.accounts-on .account-box.accounts-only { display: block; }
+.account-box h2 { margin: 0 0 6px; font: 600 12px var(--f-ui); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); }
+.account-box p { margin: 0 0 10px; color: var(--ink-2); }
+.account-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.email-form { display: flex; gap: 8px; flex: 1; min-width: 260px; }
+.email-form input { font-size: 15px; padding: 6px 10px; }
+.account-note { font-size: 13px; color: var(--muted); margin-top: 8px !important; }
+.account-error { color: var(--bad-fg); font-size: 13.5px; margin-top: 8px !important; }
+.btn.danger { color: var(--bad-fg); }
+.btn:disabled { opacity: 0.55; cursor: default; }
+.r-note { font-size: 13.5px; color: var(--ink-2); margin-top: 4px; white-space: pre-line; }
+@media (max-width: 520px) { .email-form { flex-direction: column; min-width: 0; } }

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; font-src 'self'; frame-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>My casebook | Justice Case</title>
+<meta name="description" content="Your saved case briefs and notes.">
+<link rel="canonical" href="https://justicecase.ai/casebook/">
+<meta property="og:title" content="My casebook | Justice Case">
+<meta property="og:description" content="Your saved case briefs and notes.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../"><span class="brand-mark" aria-hidden="true">§</span>Justice Case</a>
+  <nav class="nav"><a href="../">Case library</a><a href="https://claude.ai/artifact/H6jCUg8mva5C93R2BH1SmS" rel="noopener">Brief any case</a><a href="../hornbooks/">Hornbooks</a><a href="../casebook/" id="nav-account">My casebook</a><a href="../about/">About</a></nav>
+  <button type="button" class="icon-btn" id="theme" aria-label="Switch color theme">Theme</button>
+</header>
+
+<main class="home casebook">
+  <section class="hero">
+    <h1>My casebook</h1>
+    <p>Cases you save and notes you write, grouped by course. Export them as a Markdown file for your outline.</p>
+  </section>
+  <section class="account-box accounts-only" aria-labelledby="account-title">
+    <h2 id="account-title">Sync across devices</h2>
+    <div class="signed-out-only">
+      <p>Sign in to keep your saved cases, notes, and practice answers on every device. No password to remember; reading briefs never needs an account.</p>
+      <div class="account-actions">
+        <button type="button" class="btn primary-btn" id="signin-google">Continue with Google</button>
+        <form id="signin-email-form" class="email-form" novalidate>
+          <label class="sr-only" for="signin-email">Email address</label>
+          <input type="email" id="signin-email" autocomplete="email" placeholder="you@school.edu" required>
+          <button type="submit" class="btn">Email me a sign-in link</button>
+        </form>
+      </div>
+      <p class="account-note" id="signin-sent" hidden></p>
+    </div>
+    <div class="signed-in-only">
+      <p>Signed in as <strong id="account-email"></strong>. <span id="sync-status" class="sync-status" aria-live="polite"></span></p>
+      <div class="account-actions">
+        <button type="button" class="btn" id="signout">Sign out</button>
+        <button type="button" class="btn" id="download-data">Download my data</button>
+        <button type="button" class="btn danger" id="delete-account">Delete my account and data</button>
+      </div>
+      <p class="account-note">Signing out removes your casebook from this browser; it stays in your account.</p>
+    </div>
+    <p class="account-error" id="account-error" role="alert" hidden></p>
+  </section>
+  <div class="toolbar"><button type="button" class="btn" id="export-md" disabled>Export as Markdown</button></div>
+  <div class="library" id="casebook-list" data-src="../assets/cases.json"></div>
+  <p class="empty-search" id="casebook-empty" hidden>Nothing saved yet. Open any brief and press <strong>Save to casebook</strong>, or write notes on it.</p>
+</main>
+<footer class="footer">
+  <p><strong>A study aid, not legal advice.</strong> Briefs are AI-generated and fact-checked against the court's opinion, but can still be wrong. Later history is checked only against free public sources, not a full citator. Always read the opinion and follow your school's honor code.</p>
+  <p>Opinions from <a href="https://www.courtlistener.com/" rel="noopener">CourtListener</a>, <a href="https://case.law/" rel="noopener">case.law</a> and the <a href="https://www.loc.gov/collections/united-states-reports/" rel="noopener">Library of Congress</a>. <a href="../about/">About, sources &amp; privacy</a> · <a href="mailto:contact@justicecase.ai">contact@justicecase.ai</a></p>
+</footer>
+</body>
+</html>

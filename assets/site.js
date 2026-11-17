@@ -135,7 +135,9 @@
     }
   };
   for (const b of filters.querySelectorAll("button")) b.addEventListener("click", () => applyFilter(b.dataset.filter));
-  applyFilter(document.querySelector('#claims .claim:not([data-outcome="supported"])') ? "review" : "all");
+  applyFilter("all");
+  const showChecks = $("show-checks");
+  if (showChecks) showChecks.addEventListener("click", () => { showTab("check"); $("panel-check").scrollIntoView({ block: "start" }); });
 
   // Opinion viewer: loads on first use; quotes highlight by their exact position in the checked text.
   let opinion = null;

@@ -31,7 +31,7 @@
   /* ---------- casebook store: saved cases, notes, practice answers ---------- */
   // Kept in this browser; when signed in, also synced to the student's account (see account.js).
   const CASEBOOK_KEY = "jc-casebook";
-  const EMPTY = () => ({ saved: false, note: "", holding: "", rule: "", updated: 0 });
+  const EMPTY = () => ({ saved: false, note: "", holding: "", rule: "", marks: [], updated: 0 });
   let book = {};
   try { book = JSON.parse(store.get(CASEBOOK_KEY) || "{}") || {}; } catch { book = {}; }
   // One-time move of practice answers saved before the casebook existed.
@@ -48,7 +48,7 @@
   let account = null;
   const pending = {};
   const casebook = {
-    get: (id) => ({ ...EMPTY(), ...book[id] }),
+    get: (id) => { const rec = { ...EMPTY(), ...book[id] }; rec.marks = Array.isArray(rec.marks) ? rec.marks.map((m) => ({ ...m })) : []; return rec; },
     all: () => JSON.parse(JSON.stringify(book)),
     set(id, patch) {
       book[id] = { ...EMPTY(), ...book[id], ...patch, updated: Date.now() };
@@ -180,8 +180,10 @@
   if (list) {
     let cases = [];
     const plain = (s) => (s || "").trim();
+    const inBook = (c) => { const r = casebook.get(c.id); return r.saved || r.note || r.marks.length > 0; };
+    const LABELS = { facts: "Facts", issue: "Issue", rule: "Rule", holding: "Holding", reasoning: "Reasoning", dissent: "Dissent / concurrence", note: "Notes" };
     const render = () => {
-      const saved = cases.filter((c) => casebook.get(c.id).saved || casebook.get(c.id).note);
+      const saved = cases.filter(inBook);
       $("casebook-empty").hidden = saved.length > 0;
       $("export-md").disabled = saved.length === 0;
       const courses = [...new Set(saved.map((c) => c.course))].sort();
@@ -194,7 +196,7 @@
           const li = document.createElement("li");
           const a = document.createElement("a"); a.href = `../cases/${c.id}/`;
           const name = document.createElement("span"); name.className = "r-name"; name.textContent = c.case_name;
-          const meta = document.createElement("span"); meta.className = "r-meta"; meta.textContent = `${c.citation}${rec.saved ? "" : " · notes only"}`;
+          const meta = document.createElement("span"); meta.className = "r-meta"; meta.textContent = [c.citation, rec.marks.length ? `${rec.marks.length} highlight${rec.marks.length === 1 ? "" : "s"}` : "", rec.saved ? "" : "not starred"].filter(Boolean).join(" · ");
           a.append(name, meta);
           if (rec.note) { const n = document.createElement("span"); n.className = "r-note"; n.textContent = rec.note.length > 160 ? rec.note.slice(0, 160) + "…" : rec.note; a.append(n); }
           li.append(a); ul.append(li);
@@ -203,7 +205,7 @@
       }));
     };
     on("export-md", () => {
-      const saved = cases.filter((c) => casebook.get(c.id).saved || casebook.get(c.id).note);
+      const saved = cases.filter(inBook);
       const parts = ["# My casebook", "", `Exported from justicecase.ai on ${new Date().toLocaleDateString()}. Study aid, not legal advice.`, ""];
       for (const course of [...new Set(saved.map((c) => c.course))].sort()) {
         parts.push(`## ${course}`, "");
@@ -215,6 +217,15 @@
           if (plain(rec.rule)) parts.push(`**My rule:** ${plain(rec.rule)}`, "");
           if (plain(rec.holding)) parts.push(`**My holding:** ${plain(rec.holding)}`, "");
           if (plain(rec.note)) parts.push(`**My notes:**`, "", plain(rec.note), "");
+          if (rec.marks.length) {
+            parts.push("**My highlights (book brief):**", "");
+            for (const color of Object.keys(LABELS)) {
+              const marks = rec.marks.filter((m) => m.color === color).sort((a, b) => a.start - b.start);
+              if (!marks.length) continue;
+              parts.push(`*${LABELS[color]}*`, "");
+              for (const m of marks) parts.push(`> ${plain(m.text).replace(/\s+/g, " ")}`, ...(plain(m.note) ? ["", `  - ${plain(m.note)}`] : []), "");
+            }
+          }
           parts.push(`Brief: ${location.origin}/cases/${c.id}/`, "");
         }
       }
@@ -322,16 +333,53 @@
   const showChecks = $("show-checks");
   if (showChecks) showChecks.addEventListener("click", () => { showTab("check"); $("panel-check").scrollIntoView({ block: "start" }); });
 
-  // Opinion viewer: loads on first use; quotes highlight by their exact position in the checked text.
+  // Opinion viewer and book-brief highlighting. Highlights are character positions in the exact opinion text
+  // (plus the passage itself, to re-anchor if the text ever shifts), kept in the casebook record.
   let opinion = null;
+  let jump = null;  // a fact-check quote being shown
   const box = $("source-text");
+  const MAX_MARKS = 400, MAX_NOTE = 1000, MAX_TEXT = 2000;
+  const marks = () => casebook.get(caseId).marks;
+  const saveMarks = (list) => { casebook.set(caseId, { marks: list }); renderOpinion(); };
+
+  function anchored(list) {
+    // Keep each highlight on its passage; move it if the text shifted; drop it from view if the passage is gone.
+    return list.map((m) => {
+      if (opinion.slice(m.start, m.end) === m.text) return m;
+      const at = m.text ? opinion.indexOf(m.text) : -1;
+      return at >= 0 ? { ...m, start: at, end: at + m.text.length } : null;
+    }).filter(Boolean);
+  }
+  function renderOpinion() {
+    if (!opinion) return;
+    const list = anchored(marks());
+    const cuts = new Set([0, opinion.length]);
+    for (const m of list) { cuts.add(m.start); cuts.add(m.end); }
+    if (jump) { cuts.add(jump[0]); cuts.add(jump[1]); }
+    const points = [...cuts].sort((a, b) => a - b);
+    const nodes = [];
+    for (let i = 0; i < points.length - 1; i++) {
+      const s = points[i], e = points[i + 1], text = opinion.slice(s, e);
+      const top = list.filter((m) => m.start <= s && m.end >= e).pop();  // latest highlight wins where they overlap
+      const isJump = jump && jump[0] <= s && jump[1] >= e;
+      if (!top && !isJump) { nodes.push(text); continue; }
+      const mark = document.createElement("mark");
+      mark.textContent = text;
+      if (top) { mark.className = `hl hl-${top.color}${top.note ? " has-note" : ""}`; mark.dataset.id = top.id; if (top.note) mark.title = top.note; }
+      if (isJump) mark.classList.add("jump");
+      nodes.push(mark);
+    }
+    box.replaceChildren(...nodes);
+    const n = list.length;
+    $("hl-count").textContent = n ? `${n} highlight${n === 1 ? "" : "s"}` : "";
+  }
   async function loadOpinion() {
     if (opinion !== null) return opinion;
     try {
       const res = await fetch(box.dataset.src);
       if (!res.ok) throw new Error();
       opinion = await res.text();
-      box.replaceChildren(opinion);
+      renderOpinion();
     } catch {
       opinion = "";
       box.replaceChildren(Object.assign(document.createElement("p"), { className: "panel-empty", textContent: "The opinion couldn't be loaded. Reload the page to try again." }));
@@ -344,10 +392,118 @@
       const text = await loadOpinion();
       const start = Number(button.dataset.start), end = Number(button.dataset.end);
       if (!text || !(end > start) || end > text.length) return;
-      const mark = document.createElement("mark");
-      mark.textContent = text.slice(start, end);
-      box.replaceChildren(text.slice(0, start), mark, text.slice(end));
-      requestAnimationFrame(() => mark.scrollIntoView({ block: "center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }));
+      jump = [start, end];
+      renderOpinion();
+      const mark = box.querySelector("mark.jump");
+      if (mark) requestAnimationFrame(() => mark.scrollIntoView({ block: "center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }));
     });
   }
+
+  // Full-width reading mode.
+  const setReading = (on) => {
+    document.body.classList.toggle("reading", on);
+    $("read-toggle").textContent = on ? "← Back to the brief" : "Read full width";
+    if (on) { showTab("source"); window.scrollTo({ top: 0 }); }
+  };
+  $("read-start").addEventListener("click", () => setReading(true));
+  $("read-toggle").addEventListener("click", () => setReading(!document.body.classList.contains("reading")));
+  document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") { hidePalette(); closePop(); } });
+
+  // Selecting text shows the palette; picking a color saves the highlight.
+  const palette = $("hl-palette"), pop = $("hl-pop");
+  function offsetIn(node, offset) {
+    // Character offset of a DOM position within the opinion box (its text is exactly the opinion).
+    const walker = document.createTreeWalker(box, NodeFilter.SHOW_TEXT);
+    let total = 0;
+    for (let n = walker.nextNode(); n; n = walker.nextNode()) {
+      if (n === node) return total + offset;
+      total += n.textContent.length;
+    }
+    if (node === box) return [...box.childNodes].slice(0, offset).reduce((sum, c) => sum + c.textContent.length, 0);
+    return -1;
+  }
+  let pendingRange = null;
+  function hidePalette() { palette.hidden = true; pendingRange = null; }
+  function placeNear(el, rect) {
+    el.hidden = false;
+    if (matchMedia("(max-width: 640px)").matches) { el.style.left = ""; el.style.top = ""; el.classList.add("docked"); return; }
+    el.classList.remove("docked");
+    const w = el.offsetWidth, h = el.offsetHeight;
+    el.style.left = `${Math.max(8, Math.min(window.innerWidth - w - 8, rect.left + rect.width / 2 - w / 2))}px`;
+    el.style.top = `${rect.top - h - 10 < 8 ? rect.bottom + 10 : rect.top - h - 10}px`;
+  }
+  function checkSelection() {
+    const sel = getSelection();
+    if (!opinion || !sel.rangeCount || sel.isCollapsed) { hidePalette(); return; }
+    const range = sel.getRangeAt(0);
+    if (!box.contains(range.commonAncestorContainer)) { hidePalette(); return; }
+    let start = offsetIn(range.startContainer, range.startOffset), end = offsetIn(range.endContainer, range.endOffset);
+    if (start < 0 || end < 0) { hidePalette(); return; }
+    if (start > end) [start, end] = [end, start];
+    while (start < end && /\s/.test(opinion[start])) start++;  // trim whitespace the drag picked up
+    while (end > start && /\s/.test(opinion[end - 1])) end--;
+    const word = /[\p{L}\p{N}'’-]/u;  // snap to whole words, like an e-reader
+    while (start > 0 && word.test(opinion[start - 1]) && word.test(opinion[start])) start--;
+    while (end < opinion.length && word.test(opinion[end]) && word.test(opinion[end - 1])) end++;
+    if (end - start < 2) { hidePalette(); return; }
+    pendingRange = [start, end];
+    closePop();
+    placeNear(palette, range.getBoundingClientRect());
+  }
+  let selTimer = 0;
+  document.addEventListener("selectionchange", () => { clearTimeout(selTimer); selTimer = setTimeout(checkSelection, 250); });
+  palette.addEventListener("mousedown", (ev) => ev.preventDefault());  // keep the selection while clicking a color
+  palette.addEventListener("click", (ev) => {
+    const btn = ev.target.closest("[data-color]");
+    if (!btn || !pendingRange) return;
+    const list = marks();
+    if (list.length >= MAX_MARKS) { $("hl-count").textContent = `Limit of ${MAX_MARKS} highlights on one case reached`; hidePalette(); return; }
+    const [start, end] = pendingRange;
+    const mark = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), start, end, color: btn.dataset.color, text: opinion.slice(start, end).slice(0, MAX_TEXT), note: "" };
+    if (mark.text.length < end - start) mark.end = start + mark.text.length;
+    getSelection().removeAllRanges();
+    hidePalette();
+    saveMarks([...list, mark]);
+    if (mark.color === "note") openPop(mark.id);
+  });
+
+  // Clicking a highlight opens its editor: recolor, add a note, or remove it.
+  let editing = null;
+  function closePop() {
+    if (!editing) { pop.hidden = true; return; }
+    const note = $("hl-note").value.trim().slice(0, MAX_NOTE);
+    const list = marks(), m = list.find((x) => x.id === editing);
+    editing = null;
+    pop.hidden = true;
+    if (m && m.note !== note) { m.note = note; saveMarks(list); }
+  }
+  function openPop(id) {
+    const m = marks().find((x) => x.id === id);
+    const el = box.querySelector(`mark[data-id="${CSS.escape(id)}"]`);
+    if (!m || !el) return;
+    closePop();
+    editing = id;
+    $("hl-note").value = m.note || "";
+    for (const b of pop.querySelectorAll("[data-color]")) b.setAttribute("aria-pressed", String(b.dataset.color === m.color));
+    placeNear(pop, el.getBoundingClientRect());
+    $("hl-note").focus({ preventScroll: true });
+  }
+  box.addEventListener("click", (ev) => {
+    const el = ev.target.closest("mark.hl");
+    if (el && getSelection().isCollapsed) openPop(el.dataset.id);
+  });
+  pop.addEventListener("click", (ev) => {
+    const btn = ev.target.closest("[data-color]");
+    if (!btn || !editing) return;
+    const list = marks(), m = list.find((x) => x.id === editing);
+    if (m) { m.color = btn.dataset.color; m.note = $("hl-note").value.trim().slice(0, MAX_NOTE); saveMarks(list); }
+    const id = editing; editing = null; openPop(id);
+  });
+  $("hl-done").addEventListener("click", closePop);
+  $("hl-remove").addEventListener("click", () => {
+    const id = editing; editing = null; pop.hidden = true;
+    saveMarks(marks().filter((x) => x.id !== id));
+  });
+  document.addEventListener("mousedown", (ev) => { if (!pop.hidden && !pop.contains(ev.target) && !ev.target.closest("mark.hl")) closePop(); });
+  document.addEventListener("jc-remote", (ev) => { if (ev.detail === caseId && !editing) renderOpinion(); });
 })();

@@ -169,3 +169,7 @@ button, input, textarea { font: inherit; color: inherit; }
 .linklike { border: 0; background: none; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; font-size: inherit; }
 .history-note { max-width: 780px; margin: 0 0 14px; padding: 10px 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); font-size: 13.5px; color: var(--ink-2); }
 .history-note.bad { border-left: 3px solid var(--bad-fg); }
+.hb-tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 6px; }
+.hb-kind { font-size: 12px; color: var(--ink-2); }
+.hb-kind.historical { color: var(--amber-fg); }
+a.chip { text-decoration: none; }

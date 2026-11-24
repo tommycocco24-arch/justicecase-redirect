@@ -1,0 +1,474 @@
+=== Opinion ===
+382 P.2d 109 (1962)
+
+Willie PEEVYHOUSE and Lucille Peevyhouse, Plaintiffs in Error,
+
+v.
+
+GARLAND COAL & MINING COMPANY, Defendant in Error.
+
+No. 39588.
+
+Supreme Court of Oklahoma.
+
+December 11, 1962.
+Modified and Rehearing Denied March 26, 1963.
+Second Rehearing Denied May 28, 1963.
+
+McConnell & Hanson, W.H. McConnell, Oklahoma City, for plaintiffs in error.
+
+Looney, Watts, Looney, Nichols & Johnson, Tom D. Capshaw, Oklahoma City, for defendant in error.
+
+*110 JACKSON, Justice.
+
+In the trial court, plaintiffs Willie and Lucille Peevyhouse sued the defendant, Garland Coal and Mining Company, for damages for breach of contract. Judgment was for plaintiffs in an amount considerably less than was sued for. Plaintiffs appeal and defendant cross-appeals.
+
+In the briefs on appeal, the parties present their argument and contentions under several propositions; however, they all *111 stem from the basic question of whether the trial court properly instructed the jury on the measure of damages.
+
+Briefly stated, the facts are as follows: plaintiffs owned a farm containing coal deposits, and in November, 1954, leased the premises to defendant for a period of five years for coal mining purposes. A "strip-mining" operation was contemplated in which the coal would be taken from pits on the surface of the ground, instead of from underground mine shafts. In addition to the usual covenants found in a coal mining lease, defendant specifically agreed to perform certain restorative and remedial work at the end of the lease period. It is unnecessary to set out the details of the work to be done, other than to say that it would involve the moving of many thousands of cubic yards of dirt, at a cost estimated by expert witnesses at about $29,000.00. However, plaintiffs sued for only $25,000.00.
+
+During the trial, it was stipulated that all covenants and agreements in the lease contract had been fully carried out by both parties, except the remedial work mentioned above; defendant conceded that this work had not been done.
+
+Plaintiffs introduced expert testimony as to the amount and nature of the work to be done, and its estimated cost. Over plaintiffs' objections, defendant thereafter introduced expert testimony as to the "diminution in value" of plaintiffs' farm resulting from the failure of defendant to render performance as agreed in the contract  that is, the difference between the present value of the farm, and what its value would have been if defendant had done what it agreed to do.
+
+At the conclusion of the trial, the court instructed the jury that it must return a verdict for plaintiffs, and left the amount of damages for jury determination. On the measure of damages, the court instructed the jury that it might consider the cost of performance of the work defendant agreed to do, "together with all of the evidence offered on behalf of either party".
+
+It thus appears that the jury was at liberty to consider the "diminution in value" of plaintiffs' farm as well as the cost of "repair work" in determining the amount of damages.
+
+It returned a verdict for plaintiffs for $5000.00  only a fraction of the "cost of performance", but more than the total value of the farm even after the remedial work is done.
+
+On appeal, the issue is sharply drawn. Plaintiffs contend that the true measure of damages in this case is what it will cost plaintiffs to obtain performance of the work that was not done because of defendant's default. Defendant argues that the measure of damages is the cost of performance "limited, however, to the total difference in the market value before and after the work was performed".
+
+It appears that this precise question has not heretofore been presented to this court. In Ardizonne v. Archer, 72 Okl. 70, 178 P. 263, this court held that the measure of damages for breach of a contract to drill an oil well was the reasonable cost of drilling the well, but here a slightly different factual situation exists. The drilling of an oil well will yield valuable geological information, even if no oil or gas is found, and of course if the well is a producer, the value of the premises increases. In the case before us, it is argued by defendant with some force that the performance of the remedial work defendant agreed to do will add at the most only a few hundred dollars to the value of plaintiffs' farm, and that the damages should be limited to that amount because that is all plaintiffs have lost.
+
+Plaintiffs rely on Groves v. John Wunder Co., 205 Minn. 163, 286 N.W. 235, 123 A.L.R. 502. In that case, the Minnesota court, in a substantially similar situation, adopted the "cost of performance" rule as-opposed to the "value" rule. The result was to authorize a jury to give plaintiff damages in the amount of $60,000, where the real estate concerned would have been worth only $12,160, even if the work contracted for had been done.
+
+*112 It may be observed that Groves v. John Wunder Co., supra, is the only case which has come to our attention in which the cost of performance rule has been followed under circumstances where the cost of performance greatly exceeded the diminution in value resulting from the breach of contract. Incidentally, it appears that this case was decided by a plurality rather than a majority of the members of the court.
+
+Defendant relies principally upon Sandy Valley & E.R. Co., v. Hughes, 175 Ky. 320, 194 S.W. 344; Bigham v. Wabash-Pittsburg Terminal Ry. Co., 223 Pa. 106, 72 A. 318; and Sweeney v. Lewis Const. Co., 66 Wash. 490, 119 P. 1108. These were all cases in which, under similar circumstances, the appellate courts followed the "value" rule instead of the "cost of performance" rule. Plaintiff points out that in the earliest of these cases (Bigham) the court cites as authority on the measure of damages an earlier Pennsylvania tort case, and that the other two cases follow the first, with no explanation as to why a measure of damages ordinarily followed in cases sounding in tort should be used in contract cases. Nevertheless, it is of some significance that three out of four appellate courts have followed the diminution in value rule under circumstances where, as here, the cost of performance greatly exceeds the diminution in value.
+
+The explanation may be found in the fact that the situations presented are artificial ones. It is highly unlikely that the ordinary property owner would agree to pay $29,000 (or its equivalent) for the construction of "improvements" upon his property that would increase its value only about ($300) three hundred dollars. The result is that we are called upon to apply principles of law theoretically based upon reason and reality to a situation which is basically unreasonable and unrealistic.
+
+In Groves v. John Wunder Co., supra, in arriving at its conclusions, the Minnesota court apparently considered the contract involved to be analogous to a building and construction contract, and cited authority for the proposition that the cost of performance or completion of the building as contracted is ordinarily the measure of damages in actions for damages for the breach of such a contract.
+
+In an annotation following the Minnesota case beginning at 123 A.L.R. 515, the annotator places the three cases relied on by defendant (Sandy Valley, Bigham and Sweeney) under the classification of cases involving "grading and excavation contracts".
+
+We do not think either analogy is strictly applicable to the case now before us. The primary purpose of the lease contract between plaintiffs and defendant was neither "building and construction" nor "grading and excavation". It was merely to accomplish the economical recovery and marketing of coal from the premises, to the profit of all parties. The special provisions of the lease contract pertaining to remedial work were incidental to the main object involved.
+
+Even in the case of contracts that are unquestionably building and construction contracts, the authorities are not in agreement as to the factors to be considered in determining whether the cost of performance rule or the value rule should be applied. The American Law Institute's Restatement of the Law, Contracts, Volume 1, Sections 346(1) (a) (i) and (ii) submits the proposition that the cost of performance is the proper measure of damages "if this is possible and does not involve unreasonable economic waste"; and that the diminution in value caused by the breach is the proper measure "if construction and completion in accordance with the contract would involve unreasonable economic waste". (Emphasis supplied.) In an explanatory comment immediately following the text, the Restatement makes it clear that the "economic waste" referred to consists of the destruction of a substantially completed building or other structure. Of course no such destruction is involved in the case now before us.
+
+*113 On the other hand, in McCormick, Damages, Section 168, it is said with regard to building and construction contracts that "* * * in cases where the defect is one that can be repaired or cured without undue expense" the cost of performance is the proper measure of damages, but where "* * * the defect in material or construction is one that cannot be remedied without an expenditure for reconstruction disproportionate to the end to be attained" (emphasis supplied) the value rule should be followed. The same idea was expressed in Jacob & Youngs, Inc. v. Kent, 230 N.Y. 239, 129 N.E. 889, 23 A.L.R. 1429, as follows:
+
+"The owner is entitled to the money which will permit him to complete, unless the cost of completion is grossly and unfairly out of proportion to the good to be attained. When that is true, the measure is the difference in value."
+
+It thus appears that the prime consideration in the Restatement was "economic waste"; and that the prime consideration in McCormick, Damages, and in Jacob & Youngs, Inc. v. Kent, supra, was the relationship between the expense involved and the "end to be attained"  in other words, the "relative economic benefit".
+
+In view of the unrealistic fact situation in the instant case, and certain Oklahoma statutes to be hereinafter noted, we are of the opinion that the "relative economic benefit" is a proper consideration here. This is in accord with the recent case of Mann v. Clowser, 190 Va. 887, 59 S.E.2d 78, where, in applying the cost rule, the Virginia court specifically noted that "* * * the defects are remediable from a practical standpoint and the costs are not grossly disproportionate to the results to be obtained" (Emphasis supplied).
+
+23 O.S. 1961 §§ 96 and 97 provide as follows:
+
+"§ 96. * * * Notwithstanding the provisions of this chapter, no person can recover a greater amount in damages for the breach of an obligation, than he would have gained by the full performance thereof on both sides * * *.
+
+"§ 97. * * * Damages must, in all cases, be reasonable, and where an obligation of any kind appears to create a right to unconscionable and grossly oppressive damages, contrary to substantial justice no more than reasonable damages can be recovered."
+
+Although it is true that the above sections of the statute are applied most often in tort cases, they are by their own terms, and the decisions of this court, also applicable in actions for damages for breach of contract. It would seem that they are peculiarly applicable here where, under the "cost of performance" rule, plaintiffs might recover an amount about nine times the total value of their farm. Such would seem to be "unconscionable and grossly oppressive damages, contrary to substantial justice" within the meaning of the statute. Also, it can hardly be denied that if plaintiffs here are permitted to recover under the "cost of performance" rule, they will receive a greater benefit from the breach than could be gained from full performance, contrary to the provisions of Sec. 96.
+
+An analogy may be drawn between the cited sections, and the provisions of 15 O.S. 1961 §§ 214 and 215. These sections tend to render void any provisions of a contract which attempt to fix the amount of stipulated damages to be paid in case of a breach, except where it is impracticable or extremely difficult to determine the actual damages. This results in spite of the agreement of the parties, and the obvious and well known rationale is that insofar as they exceed the actual damages suffered, the stipulated damages amount to a penalty or forfeiture which the law does not favor.
+
+23 O.S. 1961 §§ 96 and 97 have the same effect in the case now before us. In spite of the agreement of the parties, these sections limit the damages recoverable to a reasonable amount not "contrary to substantial justice"; they prevent plaintiffs from recovering a "greater amount in damages for the breach of an obligation" than *114 they would have "gained by the full performance thereof".
+
+We therefore hold that where, in a coal mining lease, lessee agrees to perform certain remedial work on the premises concerned at the end of the lease period, and thereafter the contract is fully performed by both parties except that the remedial work is not done, the measure of damages in an action by lessor against lessee for damages for breach of contract is ordinarily the reasonable cost of performance of the work; however, where the contract provision breached was merely incidental to the main purpose in view, and where the economic benefit which would result to lessor by full performance of the work is grossly disproportionate to the cost of performance, the damages which lessor may recover are limited to the diminution in value resulting to the premises because of the non-performance.
+
+We believe the above holding is in conformity with the intention of the Legislature as expressed in the statutes mentioned, and in harmony with the better-reasoned cases from the other jurisdictions where analogous fact situations have been considered. It should be noted that the rule as stated does not interfere with the property owner's right to "do what he will with his own" Chamberlain v. Parker, 45 N.Y. 569), or his right, if he chooses, to contract for "improvements" which will actually have the effect of reducing his property's value. Where such result is in fact contemplated by the parties, and is a main or principal purpose of those contracting, it would seem that the measure of damages for breach would ordinarily be the cost of performance.
+
+The above holding disposes of all of the arguments raised by the parties on appeal.
+
+Under the most liberal view of the evidence herein, the diminution in value resulting to the premises because of non-performance of the remedial work was $300.00. After a careful search of the record, we have found no evidence of a higher figure, and plaintiffs do not argue in their briefs that a greater diminution in value was sustained. It thus appears that the judgment was clearly excessive, and that the amount for which judgment should have been rendered is definitely and satisfactorily shown by the record.
+
+We are asked by each party to modify the judgment in accordance with the respective theories advanced, and it is conceded that we have authority to do so. 12 O.S. 1961 § 952; Busboom v. Smith, 199 Okl. 688, 191 P.2d 198; Stumpf v. Stumpf, 173 Okl. 1, 46 P.2d 315.
+
+We are of the opinion that the judgment of the trial court for plaintiffs should be, and it is hereby, modified and reduced to the sum of $300.00, and as so modified it is affirmed.
+
+WELCH, DAVISON, HALLEY, and JOHNSON, JJ., concur.
+
+WILLIAMS, C.J., BLACKBIRD, V.C.J., and IRWIN and BERRY, JJ., dissent.
+
+IRWIN, Justice (dissenting).
+
+By the specific provisions in the coal mining lease under consideration, the defendant agreed as follows:
+
+"* * * "7b Lessee agrees to make fills in the pits dug on said premises on the property line in such manner that fences can be placed thereon and access had to opposite sides of the pits.
+
+"c Lessee agrees to smooth off the top of the spoil banks on the above premises.
+
+"7d Lessee agrees to leave the creek crossing the above premises in such a condition that it will not interfere with the crossings to be made in pits as set out in 7b.
+
+* * * * * *
+
+"7f Lessee further agrees to leave no shale or dirt on the high wall of said pits. * * *"
+
+*115 Following the expiration of the lease, plaintiffs made demand upon defendant that it carry out the provisions of the contract and to perform those covenants contained therein.
+
+Defendant admits that it failed to perform its obligations that it agreed and contract to perform under the lease contract and there is nothing in the record which indicates that defendant could not perform its obligations. Therefore, in my opinion defendant's breach of the contract was wilful and not in good faith.
+
+Although the contract speaks for itself, there were several negotiations between the plaintiffs and defendant before the contract was executed. Defendant admitted in the trial of the action, that plaintiffs insisted that the above provisions be included in the contract and that they would not agree to the coal mining lease unless the above provisions were included.
+
+In consideration for the lease contract, plaintiffs were to receive a certain amount as royalty for the coal produced and marketed and in addition thereto their land was to be restored as provided in the contract.
+
+Defendant received as consideration for the contract, its proportionate share of the coal produced and marketed and in addition thereto, the right to use plaintiffs' land in the furtherance of its mining operations.
+
+The cost for performing the contract in question could have been reasonably approximated when the contract was negotiated and executed and there are no conditions now existing which could not have been reasonably anticipated by the parties. Therefore, defendant had knowledge, when it prevailed upon the plaintiffs to execute the lease, that the cost of performance might be disproportionate to the value or benefits received by plaintiff for the performance.
+
+Defendant has received its benefits under the contract and now urges, in substance, that plaintiffs' measure of damages for its failure to perform should be the economic value of performance to the plaintiffs and not the cost of performance.
+
+If a peculiar set of facts should exist where the above rule should be applied as the proper measure of damages, (and in my judgment those facts do not exist in the instant case) before such rule should be applied, consideration should be given to the benefits received or contracted for by the party who asserts the application of the rule.
+
+Defendant did not have the right to mine plaintiffs' coal or to use plaintiffs' property for its mining operations without the consent of plaintiffs. Defendant had knowledge of the benefits that it would receive under the contract and the approximate cost of performing the contract. With this knowledge, it must be presumed that defendant thought that it would be to its economic advantage to enter into the contract with plaintiffs and that it would reap benefits from the contract, or it would have not entered into the contract.
+
+Therefore, if the value of the performance of a contract should be considered in determining the measure of damages for breach of a contract, the value of the benefits received under the contract by a party who breaches a contract should also be considered. However, in my judgment, to give consideration to either in the instant action, completely rescinds and holds for naught the solemnity of the contract before us and makes an entirely new contract for the parties.
+
+In Goble v. Bell Oil & Gas Co., 97 Okl. 261, 223 P. 371, we held:
+
+"Even though the contract contains harsh and burdensome terms which the court does not in all respects approve, it is the province of the parties in relation to lawful subject matter to fix their rights and obligations, and the court will give the contract effect according to its expressed provisions, unless it be shown by competent evidence proof that the written agreement as executed is the result of fraud, mistake, or accident."
+
+*116 In Cities Services Oil Co. v. Geolograph Co. Inc., 208 Okl. 179, 254 P.2d 775, we said:
+
+"While we do not agree that the contract as presently written is an onerous one, we think the short answer is that the folly or wisdom of a contract is not for the court to pass on."
+
+In Great Western Oil & Gas Company v. Mitchell, Okl., 326 P.2d 794, we held:
+
+"The law will not make a better contract for parties than they themselves have seen fit to enter into, or alter it for the benefit of one party and to the detriment of the others; the judicial function of a court of law is to enforce a contract as it is written."
+
+I am mindful of Title 23 O.S. 1961 § 96, which provides that no person can recover a greater amount in damages for the breach of an obligation than he could have gained by the full performance thereof on both sides, except in cases not applicable herein. However, in my judgment, the above statutory provision is not applicable here.
+
+In my judgment, we should follow the case of Groves v. John Wunder Company, 205 Minn. 163, 286 N.W. 235, 123 A.L.R. 502, which defendant agrees "that the fact situation is apparently similar to the one in the case at bar", and where the Supreme Court of Minnesota held:
+
+"The owner's or employer's damages for such a breach (i.e. breach hypothesized in 2d syllabus) are to be measured, not in respect to the value of the land to be improved, but by the reasonable cost of doing that which the contractor promised to do and which he left undone."
+
+The hypothesized breach referred to states that where the contractor's breach of a contract is wilful, that is, in bad faith, he is not entitled to any benefit of the equitable doctrine of substantial performance.
+
+In the instant action defendant has made no attempt to even substantially perform. The contract in question is not immoral, is not tainted with fraud, and was not entered into through mistake or accident and is not contrary to public policy. It is clear and unambiguous and the parties understood the terms thereof, and the approximate cost of fulfilling the obligations could have been approximately ascertained. There are no conditions existing now which could not have been reasonably anticipated when the contract was negotiated and executed. The defendant could have performed the contract if it desired. It has accepted and reaped the benefits of its contract and now urges that plaintiff's benefits under the contract be denied. If plaintiffs' benefits are denied, such benefits would inure to the direct benefit of the defendant.
+
+Therefore, in my opinion, the plaintiffs were entitled to specific performance of the contract and since defendant has failed to perform, the proper measure of damages should be the cost of performance. Any other measure of damage would be holding for naught the express provisions of the contract; would be taking from the plaintiff the benefits of the contract and placing those benefits in defendant which has failed to perform its obligations; would be granting benefits to defendant without a resulting obligation; and would be completely rescinding the solemn obligation of the contract for the benefit of the defendant to the detriment of the plaintiffs by making an entirely new contract for the parties.
+
+I therefore respectfully dissent to the opinion promulgated by a majority of my associates.
+
+SUPPLEMENTAL OPINION ON REHEARING
+
+JACKSON, Justice.
+
+In a Petition for Rehearing, plaintiffs Peevyhouse have raised certain questions not presented in the original briefs on appeal.
+
+*117 They insist that the trial court excluded evidence as to the total value of the premises concerned, and, in effect, that they have not had their "day in court". This argument arises by reason of the fact that their farm consists not merely of the 60 acres covered by the coal mining lease, but includes other lands as well.
+
+Plaintiffs originally pleaded two causes of action against the defendant mining company. The first one was for damages for breach of contract; the second one was for damages to the water well and home of plaintiffs, because of the use of excessively large charges of dynamite or blasting powder in close proximity to the home and well.
+
+Numbered paragraph 2 of plaintiffs' petition alleges that they own and live upon 60 acres of land which are specifically described. This is the only land described in the petition, and there is no allegation as to the ownership or leasing of any other lands.
+
+Page 4 of the transcript of evidence reveals that near the beginning of the trial, plaintiff Peevyhouse was asked a question concerning improvements he had made to his property. His answer was "For one thing I built a new home on the place in 1951, and along about that time I was building a pasture. And I would say ninety percent of this 120 acres is in good grass." (Emphasis supplied.) Mr. Watts, defense counsel, then objected "to any testimony about the property, other than the 160 acres". (It is obvious that he means "60" instead of "160".) Further proceedings were as follows:
+
+"The Court: The objection will be sustained as to any other part. Go ahead.
+
+"Mr. McCornell (attorney for plaintiffs): Comes now the plaintiff and dismisses the second cause of action without prejudice."
+
+It thus appears that plaintiffs made no complaint as to the court's exclusion of evidence concerning lands other than the 60 acres described in their petition.
+
+Pages 7 and 8 of the transcript show that later during direct examination of Mr. Peevyhouse, the following occurred:
+
+"Q. (By Mr. McConnell) Now, Mr. Peevyhouse, I ask you to step down here and I ask you if you are familiar with this sketch or drawing?
+
+* * * * * *
+
+"A. Yes. I've got about 40 acres here, and here would be 20, and there would be 20 on this sketch. And I've got leased land lying in here, 80 acres.
+
+"Mr. Watts: If your Honor please, I object to anything except the 60 acres involved in this lawsuit.
+
+"The Court: Sustained.
+
+"Q. (By Mr. McConnell) Will you point out to the jury, the boundary line shown of your property?
+
+* * * * * *
+
+"A. That blue is where the water is actually standing at the present time. Up until a short time ago this area here came over that far. And this spring all of it would run, come in here out this way and through here, spreading over this land and all below it. And at the present time this is washed out here.
+
+"Mr. Watts: If your Honor please, I object to that as not the proper measure of damages.
+
+"The Court: The objection will be sustained."
+
+This testimony of Mr. Peevyhouse is difficult for us to follow, even with the exhibits in the case before us. However, no complaint was made by plaintiffs, or any suggestion that the court was in error in excluding this testimony.
+
+The defendant offered the testimony of five witnesses in the trial court; four of them testified as to "diminution in value". They were not cross examined by plaintiffs.
+
+In their motion for new trial, plaintiffs did not complain that they had been prevented from offering evidence as to the diminution in value of their lands; on the *118 contrary, they affirmatively complained of the trial court's action in admitting evidence of the defendant on that point.
+
+In the original brief of plaintiffs in error (Peevyhouse) filed in this court there appears the following language at page 4:
+
+"* * * Near the outset of the trial plaintiffs dismissed their second cause of action without prejudice: further, it was stipulated * * *. It was further stipulated that the only issue remaining in the lawsuit was the proof and measure of damages to which plaintiffs were entitled * * *." (Emphasis supplied.)
+
+In the answer brief of Garland Coal & Mining Co., at page 3, there appears the following language:
+
+"Defendant offered evidence that the total value of the property involved before the mining operation would be $60.00 per acre, and $11.00 per acre after the mining operation (60 acres at $49.00 per acre is $2940.00). Other evidence was that the property was worth $5.00 to $15.00 per acre after the mining, but before the repairs; and would be worth an increase of $2.00 to $5.00 per acre after the repairs had been made (60 acres at $5.00 per acre is $300.00) (Tr. 96-97, 135, 137-138, 138-141, 143-145, 156, 158)."
+
+At page 18 of the same brief there is another statement to the effect that the "amount of diminution in value of the land" was $300.00.
+
+About two months after the answer brief was filed in this court, plaintiffs filed a reply brief. The reply brief makes no reference at all to the language of the answer brief above quoted and does not deny that the diminution in value shown by the record amounts to $300.00. On the contrary, it contains the following language at page 5:
+
+"* * * Plaintiffs in error pointed out in their initial brief that this evidence concerning land values was objectionable as being incompetent and refused to cross-examine or offer rebuttal for the reason that they did not choose to waive their objections to the competency of the evidence by disproving defendant in error's allegations as to land values. We strongly urged at the trial below, and still do, that market value of the land has no application * * *."
+
+Our extended reference to the pleadings, testimony and prior briefs in this case has not been solely for the purpose of showing that plaintiffs failed to complain of the court's rulings. Our purpose, rather, has been to demonstrate the plan and theory upon which plaintiffs tried their case below, and upon which they argued it in the prior briefs on appeal.
+
+The whole record in this case justifies the conclusion that plaintiffs tried their case upon the theory that the "cost of performance" would be the sole measure of damages and that they would recognize no other. In view of the whole record in this case and the original briefs on appeal, we conclude that they so tried it with notice that defendant would contend for the "diminution *119 in value" rule. The testimony to which they specifically refer in the petition for rehearing shows that the trial court properly excluded defendant's evidence concerning lands other than the 60 acres described in the petition because such evidence was not within the scope of the pleadings. At no time did plaintiffs ask permission to amend their petition, either with or without prejudice to trial, so as to describe all of the lands they own or lease, and no evidence was admitted which could broaden the scope of the petition.
+
+Plaintiffs' petition described 60 acres of land only; plaintiffs offered no evidence on the question of "diminution in value" and objected to similar evidence offered by the defendant; their motion for new trial contained no allegation that they had been prevented from offering evidence on this question; in their reply brief they did not controvert the allegation in defendant's answer brief that the record showed a "diminution in value" of only $300.00; and in view of the stipulation they admittedly made in the trial court, their statement in petition for rehearing that the court's instructions on the measure of damages came as a "complete surprise" and "did not afford them the opportunity to prepare and introduce evidence under the `diminution in value' rule" is not supported by the record.
+
+We think plaintiffs' present position is that of a plaintiff in any damage suit who has failed to prove his damages  opposed by a defendant who has proved plaintiff's damages; and that plaintiffs' complaint that the record does not show the total "diminution in value" to their lands comes too late. It is well settled that a party will not be permitted to change his theory of the case upon appeal. Knox v. Eason Oil Co., 190 Okl. 627, 126 P.2d 247.
+
+Also, plaintiffs' expressed fear that by introducing evidence on the question of "diminution in value" they would have waived their objection to similar evidence by defendant was not justified. Vogel v. Fisher et al., 203 Okl. 657, 225 P.2d 346; 53 Am.Jur. Trial, Sec. 144.
+
+It is suggested in a brief of amici curiae that our decision in this case has resulted in an impairment of the obligation of the contract of the parties, in violation of Article 1, Section 10, of the Constitution of the United States, and in that connection the only case cited is Sturges v. Crowninshield, 4 Wheat 122, 17 U.S. 1229, 4 L.Ed. 529 (1819). In their brief, amici curiae quote language from the Lawyer's Edition notes of Mr. Stephen K. Williams, in which he summarized the "points and authorities" of one of the counsel appearing before the U.S. Supreme Court.
+
+Sturges v. Crowninshield was an early case in which the Supreme Court considered the power of a statute to enact bankruptcy laws, and the extent, if any, to which such power is limited by Article 1, Section 10 of the Constitution. The contracts concerned consisted of promissory notes executed in March, 1811, and the bankruptcy law under which the promisor claimed a discharge was not enacted until April 3, 1811. In a memorable opinion written by Chief Justice Marshall, the court held that insofar as the bankruptcy law purported to discharge the obligations of contracts executed before its enactment, it was unconstitutional and void.
+
+The same situation does not exist here. 23 O.S. 1961 §§ 96 and 97, cited in our original opinion, were a part of the Revised Laws of 1910 (R.L. 1910) Sections 2889 and 2890) and have been in force in this state, in unchanged form, since that codification was adopted by the legislature in 1911. The lease contract concerned in the case now before us was not executed until 1954.
+
+Nor do we agree that our decision itself (as opposed to the statutes cited therein as controlling) impairs the obligations of the contract concerned. It may be conceded that at one time there was respectable authority for the proposition that the "contract" clause was violated by a judicial decision which overruled prior decisions, upon the strength of which contract rights had been acquired. In this connection, it should be noted that our decision overrules no prior holdings of this court upon which the contracting parties could be said to have relied. Even if it did,
+
+"* * * it is now definitely and authoritatively settled that such prohibition in federal and state constitutions relate to legislative action and not to judicial decisions. Thus, they do not apply to the decision of a state court, where such decision does not expressly, or by necessary implication, give effect to a subsequent law of the state whereby the obligation of the contract is impaired. * * *" 16 C.J.S. Constitutional Law § 280.
+
+To the same effect, see 12 Am.Jur. Constitutional Law, Sec. 398.
+
+Our decision herein overrules no prior holdings of this court, and it does not give effect to a subsequent law of this state. It therefore cannot be said to impair the *120 obligations of the contract of the parties here concerned.
+
+The petition for rehearing is denied.
+
+HALLEY, V.C.J., and WELCH, DAVISON and JOHNSON, JJ., concur.
+
+BLACKBIRD, C.J., and WILLIAMS, IRWIN and BERRY, JJ., dissent.
+
+=== Majority opinion (Jackson) ===
+JACKSON, Justice.
+
+In the trial court, plaintiffs Willie and Lucille Peevyhouse sued the defendant, Garland Coal and Mining Company, for damages for breach of contract. Judgment was for plaintiffs in an amount considerably less than was sued for. Plaintiffs appeal and defendant cross-appeals.
+
+In the briefs on appeal, the parties present their argument and contentions under several propositions; however, they all *111stem from the basic question of whether the trial court properly instructed the jury on the measure of damages.
+
+Briefly stated, the facts are as follows: plaintiffs owned a farm containing coal deposits, and in November, 1954, leased the premises to defendant for a period of five years for coal mining purposes. A “strip-mining” operation was contemplated in which the coal would be taken from pits on the surface of the ground, instead of from underground mine shafts. In addition to the usual covenants found in a coal mining lease, defendant specifically agreed to perform certain restorative and remedial work at the end of the lease period. It is unnecessary to set out the details of the work to be done, other than to say that it would involve the moving of many thousands of cubic yards of dirt, at a cost estimated by expert witnesses at about $29,000.00. However, plaintiffs sued for only $25,000.00.
+
+During the trial, it was stipulated that all covenants and agreements in the lease contract had been fully carried out by both parties, except the remedial work mentioned above; defendant conceded that this work had not been dune.
+
+Plaintiffs introduced expert testimony as to the amount and nature of the work to be done, and its estimated cost. Over plaintiffs’ objections, defendant thereafter introduced expert testimony as to the “diminution in value” of plaintiffs’ farm resulting from the failure of defendant to render performance as agreed in the contract— that is, the difference between the present value of the farm, and what its value would have been if defendant had done what it agreed to do.
+
+At the conclusion of the trial, the court instructed the jury that it must return a verdict for plaintiffs, and left the amount of damages for jury determination. On the measure of damages, the court instructed the jury that it might consider the cost of performance of the work defendant agreed to do, “together with all of the evidence offered on behalf of either party”.
+
+It thus appears that the jury was at liberty to consider the “diminution in value” of plaintiffs’ farm as well as the cost of “repair work” in determining the amount of damages.
+
+It returned a verdict for plaintiffs for $5000.00 — only a fraction of the “cost of performance”, but more than the total value of the farm even after the remedial work is done.
+
+On appeal, the issue is sharply drawn. Plaintiffs contend that the true measure of damages in this case is what it will cost plaintiffs to obtain performance of the work that was not done because of defendant’s default. Defendant argues that the measure of damages is the cost of performance “limited, however, to the total difference in the market value before and after the work was performed”.
+
+It appears that this precise question has not heretofore been presented to this court. In Ardizonne v. Archer, 72 Okl. 70, 178 P. 263, this court held that the measure of damages for breach of a contract to drill an oil well was the reasonable cost of drilling the well, but here a slightly different factual situation exists. The drilling of an oil well will yield valuable geological information, even if no oil or gas is found, and of course if the well is a producer, the value of the premises increases. In the case before us, it is argued by defendant with some forcé that the performance of the remedial work defendant agreed to do will add at the most only a few hundred dollars to the value of plaintiffs’ farm, and that the damages should be limited to that amount because that is all plaintiffs have lost.
+
+Plaintiffs rely on Groves v. John Wunder Co., 205 Minn. 163, 286 N.W. 235, 123 A.L.R. 502. In that case, the Minnesota court, in a substantially similar situation, adopted the “cost of performance” rule as-opposed to the “value” rule. The result was to authorize a jury to give plaintiff damages in the amount of $60,000, where the real estate concerned would have been worth only $12,160, even if the work contracted for had been done.
+
+*112It may be observed that Groves v. John Wunder Co., supra, is the only case which has come to our attention in which the cost of performance rule has been followed under circumstances where the cost of performance greatly exceeded the diminution in value resulting from the breach of contract. Incidentally, it appears that this case was decided by a plurality rather than a majority of the members of the court.
+
+Defendant relies principally upon Sandy Valley & E. R. Co., v. Hughes, 175 Ky. 320, 194 S.W. 344; Bigham v. Wabash-Pittsburg Terminal Ry. Co., 223 Pa. 106, 72 A. 318; and Sweeney v. Lewis Const. Co., 66 Wash. 490, 119 P. 1108. These were all cases in which, under similar circumstances, the appellate courts followed the “value” rule instead of the “cost of performance” rule. Plaintiff points out that in the earliest of these cases (Bigham) the court cites as authority on the measure of damages an earlier Pennsylvania tort case, and that the other two cases follow the first, with no explanation as to why a measure of damages ordinarily followed in cases sounding in tort should be used in contract cases. Nevertheless, it is of some significance that three out of four appellate courts have followed the diminution in value rule under circumstances where, as here, the cost of performance greatly exceeds the diminution in value.
+
+The explanation may be found in the fact that the situations presented are artificial ones. It is highly unlikely that the ordinary property owner would agree to pay $29,000 (or its equivalent) for the construction of “improvements” upon his property that would increase its value only about ($300) three hundred dollars. The result is that we are called upon to apply principles of law theoretically based upon reason and reality to a situation which is basically unreasonable and unrealistic.
+
+In Groves v. John Wunder Co., supra, in arriving at its conclusions, the Minnesota court apparently considered the contract involved to be analogous to a building and construction contract, and cited authority for the proposition that the cost of per-r formance or completion of the building as contracted is ordinarily the measure of damages in actions for damages for the breach of such a contract.
+
+In an annotation following the Minnesota case beginning at 123 A.L.R. 515, the annotator places the three cases relied on by defendant (Sandy Valley, Bigham and Sweeney) under the classification of cases involving “grading and excavation contracts”.
+
+We do not think either analogy is strictly applicable to the case now before us. The primary purpose of the lease contract between plaintiffs and defendant was neither “building and construction” nor “grading and excavation”. It was merely to accomplish the economical recovery and marketing of coal from the premises, to the profit of all parties. The special provisions of the lease contract pertaining to remedial work were incidental to the main object involved.
+
+Even in the case of contracts that are unquestionably building and construction contracts, the authorities are not in agreement as to the factors to be considered in determining whether the cost of performance rule or the value rule should be applied. The American Law Institute’s Restatement of the Law, Contracts, Volume 1, Sections 346(1) (a) (i) and (ii) submits the proposition that the cost of performance is the proper measure of damages “if this is possible and does not involve unreasonable economic waste”; and that the diminution in value caused by the breach is the proper measure “if construction and completion in accordance with the contract would involve unreasonable economic waste”. (Emphasis supplied.) In an explanatory comment immediately following the text, the Restatement makes it clear that the “economic waste” referred to consists of the destruction of a substantially completed building or other structure. Of course, no such destruction is involved in the case now before us.
+
+*113On the other hand, in McCormick, Damages, Section 168, it is said with regard to building and construction contracts that “ * * * in cases where the defect is one that can be repaired or cured without undue expense” the cost of performance is the proper measure of damages, but where “ * * * the defect in material or construction is one that cannot be remedied without an expenditure for reconstruction disproportionate to the end to be attained” (emphasis supplied) the value rule should be followed. The same idea was expressed in Jacob & Youngs, Inc. v. Kent, 230 N.Y. 239, 129 N.E. 889, 23 A.L.R. 1429, as follows :
+
+“The owner is entitled to the money which will permit him to complete, unless the cost of completion is grossly and unfairly out of proportion to'the good to be attained. When that is true, the measure is the difference in value.”
+
+It thus appears that the prime consideration in the Restatement was “economic waste”; and that the prime consideration in McCormick, Damages, and in Jacob & Youngs, Inc. v. Kent, supra, was the relationship between the expense involved and the “end to be attained” — in other words, the “relative economic benefit”.
+
+In view of the unrealistic fact situation in the instant case, and certain Oklahoma statutes to be hereinafter noted, we are of the opinion that the “relative economic benefit” is a proper consideration here. This is in accord with the recent case of Mann v. Clowser, 190 Va. 887, 59 S.E.2d 78, where, in applying the cost rule, the Virginia court specifically noted that “ * * * the defects are remediable from a practical standpoint and the costs are not grossly disproportionate to the results to be obtained” (Emphasis supplied).
+
+23 O.S.1961 §§ 96 and 97 provide as follows :
+
+“§ 96. * * * Notwithstanding the provisions of this chapter, no person can recover a greater amount in damages for the breach of an obligation, than he would have gained by the full performance thereof on both sides
+
+“§ 97. * * * Damages must, in all cases, be reasonable, and where an obligation of any kind appears to create a right to unconscionable and grossly oppressive damages, contrary to substantial justice no more than reasonable damages can be recovered.”
+
+Although it is true that the above sections of the statute are applied most often in tort cases, they are by their own terms, and the decisions of this court, also applicable in actions for damages for breach of contract. It would seem that they are peculiarly applicable here where, under the “cost of performance” rule, plaintiffs might recover an amount about nine times the total value of their farm. Such would seem to be “unconscionable and grossly oppressive damages, contrary to substantial justice” within the meaning of the statute. Also, it can hardly be denied that if plaintiffs here are permitted to recover under the “cost of performance” rule, they will receive a greater benefit from the breach than could be gained from full performance, contrary to the provisions of Sec. 96.
+
+An analogy may be drawn between the cited sections, and the provisions of 15 O.S.1961 §§ 214 and 215. These sections tend to render void any provisions of a contract which attempt to fix the amount of stipulated damages to be paid in case of a breach, except where it is impracticable or extremely difficult to determine the actual damages. This results in spite of the agreement of the parties, and the obvious and well known rationale is that insofar as they exceed the actual damages suffered, the stipulated damages amount to a penalty or forfeiture which the law does not favor.
+
+23 O.S.1961 §§ 96 and 97 have the same effect in the case now before us. In spite of the agreement of the parties, these sections limit the damages recoverable to a reasonable amount not “contrary to substantial justice”; they prevent plaintiffs from recovering a “greater amount in damages for the breach of an obligation” than *114they would have “gained by the full performance thereof”.
+
+We therefore hold that where, in a coal mining lease, lessee agrees to perform certain remedial work on the premises concerned at the end of the lease period, and thereafter the contract is fully performed by both parties except that the remedial work is not done, the measure of damages in an action by lessor against lessee for damages for breach of contract is ordinarily the reasonable cost of performance of the work; however, where the contract provision breached was merely incidental to the main purpose in view, and where the economic benefit which would result to lessor by full performance of the work is grossly disproportionate to the cost of performance, the damages which lessor may recover are limited to- the diminution in value resulting to the premises because of the non-performance.
+
+We believe the above holding is in conformity with the intention of the Legislature as expressed in the statutes mentioned, and in harmony with the better-reasoned cases from the other jurisdictions where analogous fact situations have been considered. It should be noted that the rule as stated does not interfere with the property owner’s rght to “do what he will with his own” Chamberlain v. Parker, 45 N.Y. 569), or his right, if he chooses, to contract for “improvements” which' will actually have the effect of reducing his property’s value. Where such result is in fact contemplated by the parties, and is a main or principal purpose of those contracting, it would seem that the measure of damages for breach would ordinarily be the cost of performance.
+
+The above holding disposes of all of the arguments raised by the parties on appeal.
+
+Under the most liberal view of the evidence herein, the diminution in value resulting to the premises because of nonperformance of the remedial work was $300.00. After a careful search of the record, we have found no evidence of a higher figure, and plaintiffs do not argue in their briefs that a greater diminution in value was sustained. It thus appears that the judgment was clearly excessive, and that the amount for which judgment should have been rendered is definitely and satisfactorily shown by the record.
+
+We are asked by each' party to modify the judgment in accordance with the respective theories advanced, and it is conceded that we have authority to do so. 12 O.S.1961 § 952; Busboom v. Smith, 199 Okl. 688, 191 P.2d 198; Stumpf v. Stumpf, 173 Okl. 1, 46 P.2d 315.
+
+We are of the opinion that the judgment of the trial court for plaintiffs should be, and "it is hereby, modified and reduced to the sum of $300.00, and as so modified it is affirmed.
+
+WELCH, DAVISON, HALLEY, and JOHNSON, JJ., concur.
+WILLIAMS, C. J., BLACKBIRD, V. C. J., and IRWIN and BERRJ, JJ., dissent.
+
+=== Dissent (Irwin) ===
+IRWIN, Justice
+
+(dissenting).
+
+By the specific provisions in the coal mining lease under consideration, the defendant agreed as follows:
+
+“* * * “7b Lessee agrees to make fills in the pits dug on said premises on the property line in such manner that fences can be placed thereon and access had to opposite sides of the pits.
+
+“c Lessee agrees to smooth off the top of the spoil banks on the above premises.
+
+“7d Lessee agrees to leave the creek crossing the above premises in such a condition that it will not interfere with the crossings to be made in pits as set out in 7b.
+
+* * * * * *
+
+“7f Lessee further agrees to leave no shale or dirt on the high wall of said pits. * * * ”
+
+*115Following the expiration of the lease, plaintiffs made demand upon defendant that it carry out the provisions of the contract and to perform those covenants contained therein.
+
+Defendant admits that it failed to perform its obligations that it agreed and contracted to perform under the lease contract and there is nothing in the record which indicates that defendant could not perform its obligations. Therefore, in my opinion defendant’s breach of the contract was wilful and not in good faith.
+
+Although the contract speaks for itself, there were several negotiations between the plaintiffs and defendant before the contract was executed. Defendant admitted in the trial of the action, that plaintiffs insisted that the above provisions be included in the contract and that they would not agree to the coal mining lease unless the above provisions were included.
+
+In consideration for the lease contract, plaintiffs were to receive a certain amount as royalty for the coal produced and marketed and in addition thereto their land was to be restored as provided in the contract.
+
+Defendant received as consideration for the contract, its proportionate share of the coal produced and marketed and in addition thereto, the right to use plaintiffs’ land in the furtherance of its mining operations.
+
+The cost for performing the contract in question could have been reasonably approximated when the contract was negotiated and executed and there are no conditions now existing which could not have been reasonably anticipated by the parties. Therefore, defendant had knowledge, when it prevailed upon the plaintiffs to execute the lease, that the cost of performance might be disproportionate to the value or benefits received by plaintiff for the performance.
+
+Defendant has received its benefits under the contract and now urges, in substance, that plaintiffs’ measure of damages for its failure to perform should be the economic value of performance to the plaintiffs and not the cost of performance.
+
+If a peculiar set of facts should exist where the above rule should be applied as the proper measure of damages, (and in my judgment those facts do not exist in the instant case) before such rule should be applied, consideration should be given to the benefits received or contracted for by the party who asserts the application of the rule.
+
+Defendant did not have the right to mine plaintiffs’ coal or to use plaintiffs’ property for its mining operations without the consent of plaintiffs. Defendant had knowledge of the benefits that it would receive under the contract and the approximate cost of performing the contract. With this knowledge, it must be presumed that defendant thought that it would be to its economic advantage to enter into the contract with plaintiffs and that it would reap benefits from the contract, or it would have not entered into the contract.
+
+Therefore, if the value of the performance of a contract should be considered in determining the measure of damages for breach of a contract, the value of the benefits received under the contract by a party who breaches a contract should also be considered. However, in my judgment, to give consideration to either in the instant action, completely rescinds and holds for naught the solemnity of the contract before us and makes an entirely new contract for the parties.
+
+In Goble v. Bell Oil & Gas Co., 97 Okl. 261, 223 P. 371, we held:
+
+“Even though the contract contains harsh and burdensome terms which the court does not in all respects approve, it is the province of the parties in relation to lawful subject matter to fix their rights and obligations, and the court will give the contract effect according to its expressed provisions, unless it be shown by competent evidence proof that the written agreement as executed is the result of fraud, mistake, or accident.”
+
+*116In Cities Service Oil Co. v. Geolograph Co. Inc., 208 Okl. 179, 254 P.2d 775, we said:
+
+“While we do not agree that the contract as presently written is an onerous one, we think the short answer is that the folly or wisdom of a contract is not for the court to pass on.”
+
+In Great Western Oil & Gas Company v. Mitchell, Okl., 326 P.2d 794, we held:
+
+“The law will not make a better contract for parties than they themselves have seen fit to enter into, or alter it for the benefit of one party and to the detriment of the others; the judicial function of a court of law is to enforce a contract as it is written.”
+
+I am mindful of Title 23 O.S.1961 § 96, which provides that no person can recover a greater amount in damages for the breach of an obligation than he could have gained by the full performance thereof on both sides, except in cases not applicable herein. However, in my judgment, the above statutory provision is not applicable here.
+
+In my judgment, we should follow the case of Groves v. John Wunder Company, 205 Minn. 163, 286 N.W. 235, 123 A.L.R. 502, which defendant agrees “that the fact situation is apparently similar to the one in the case at bar”, and where the Supreme Court of Minnesota held:
+
+“The owner’s or employer’s damages for such a breach (i. e. breach hypothesized in 2d syllabus) are to be measured, not in respect to the value of the land to be improved, but by the reasonable cost of doing that which the contractor promised to do and which he left undone.” .
+
+The hypothesized breach' referred to states that where the contractor’s breach of a contract is wilful, that is, in bad faith, he is not entitled to any benefit of the equitable doctrine of substantial performance.
+
+In the instant action defendant has made no attempt to even substantially perform. The contract in question is not immoral, is not tainted with fraud, and was not entered into through mistake or accident and is not contrary to public policy. It is clear and unambiguous and the parties understood the terms thereof, and the approximate cost of fulfilling the obligations could have been approximately ascertained. There are no conditions existing now which could not have been reasonably anticipated when the contract was negotiated and executed. The defendant could have performed the contract if it desired. It has accepted and reaped the benefits of its contract and now urges that plaintiffs’ benefits under the contract be denied. If plaintiffs’ benefits are denied, such benefits would inure to the direct benefit of the defendant.
+
+Therefore, in my opinion, the plaintiffs were entitled to specific performance of the contract and since defendant has failed to perform, the proper measure of damages should be the cost of performance. Any other measure of damage would be holding for naught the express provisions of the contract; would be taking from the plaintiffs the benefits of the contract and placing those benefits in defendant which has failed to perform its obligations; would be granting benefits to defendant without a resulting obligation; and would be completely rescinding the solemn obligation of the contract for the benefit of the defendant to the detriment of the plaintiffs by making an entirely new contract for the parties.
+
+I therefore respectfully dissent to the opinion promulgated by a majority of my associates.
+
+=== Rehearing (Jackson) ===
+SUPPLEMENTAL OPINION ON REHEARING
+
+JACKSON, Justice.
+
+In a Petition for Rehearing, plaintiffs Peevyhouse have raised certain questions not presented in the original briefs on appeal.
+
+*117They insist that the trial court excluded ■evidence as to the total value of the premises concerned, and, in effect, that they have not had their “day in court”. This argument arises by reason of the fact that their farm consists not merely of the 60 acres covered by the coal mining lease, but ■includes other lands as well.
+
+Plaintiffs originally pleaded two causes of action against the defendant mining company. The first one was for damages for breach of contract; the second one was for damages to the water well and borne of plaintiffs, because of the use of excessively large charges of dynamite or blasting powder in close proximity to the home and well.
+
+Numbered paragraph 2 of plaintiffs’ petition alleges that they own and live upon 60 acres of land which are specifically described. This is the only land described in the petition, and there is no allegation as to the ownership or leasing of any other lands.
+
+Page 4 of the transcript of evidence reveals that near the beginning of the trial, plaintiff Peevyhouse was asked a question concerning improvements he had made to his property. His answer was “For one thing I built a new home on the place in 1951, and along about that time I was building a pasture. And I would say ninety percent of this 120 acres is in good grass.” (Emphasis supplied.) Mr. Watts, defense counsel, then objected “to any testimony about the property, other than the 160 acres”. (It is obvious that he means “60” instead of “160”.) Further proceedings were as follows:
+
+“The Court: The objection will be sustained as to any other part. Go ahead.
+
+“Mr. McCornell (attorney for plaintiffs) : Comes now the plaintiff and dismisses the second cause of action without prejudice.”
+
+It thus appears that plaintiffs made no complaint as to the court’s exclusion of evidence concerning lands other than the 60 acres described in their petition.
+
+Pages 7 and 8 of the transcript show that later during direct examination of Mr. Peevyhouse, the following occurred:
+
+“Q. (By Mr. McConnell) Now, Mr. Peevyhouse, I ask you to step down here and I ask you if you are familiar with this sketch or drawing?
+
+⅜ ⅝ ⅜ ⅝ ⅜ ⅜
+
+“A. Yes. I’ve got about 40 acres here, and here would be 20, and there would be 20 on this sketch. And I’ve got leased land lying in here, 80 acres. “Mr. Watts: If your Honor please, I object to anything except the 60 acres involved in this lawsuit.
+
+“The Court: Sustained.
+
+“Q. (By Mr. McConnell) Will you point out to the jury, the boundary line shown of your property?
+
+* * * * * *
+
+“A. That blue is where the water is actually standing at the present time. Up until a short time ago this area here cáme over that far. And this spring all of it would run, come in here out this way and through here, spreading over this land and all below it. And at the present time this is washed out here.
+
+“Mr. Watts: If your Honor please, I object to that as not the proper measure of damages.
+
+“The Court: The obj ection will be sustained.”
+
+This testimony of Mr. Peevyhouse is difficult for us to follow, even with the exhibits in the case before us. However, no complaint was made by plaintiffs, or any suggestion that the court was in error in excluding this testimony.
+
+The defendant offered the testimony of five witnesses in the trial court; four of them testified as to “diminution in value”. They were not cross examined by plaintiffs.
+
+In their motion for new trial, plaintiffs did not complain that they had been prevented from offering evidence as to the diminution in value of their lands; on the *118contrary, they affirmatively complained of the trial court’s action in admitting evidence of the defendant on that point.
+
+In the original brief of plaintiffs in error (Peevyhouse) filed in this court there appears the following language at page 4:
+
+“ * * * Near the outset of the trial plaintiffs dismissed their second cause of action without prejudice: further, it was stipulated * * *. It was further stipulated that the only issue remaining in the lawsuit was the proof and measure of damages to which plaintiffs were entitled * * (Emphasis supplied.)
+
+In the answer brief of Garland Coal & Mining Co., at page 3, there appears the following language:
+
+“Defendant offered evidence that the total value of the property involved before the mining operation would be $60.00 per acre, and $11.00 per acre after the mining operation (60 acres at $49.00 per acre is $2940.00). Other evidence was that the property was worth $5.00 to $15.00 per acre after the mining, but before the repairs; and would be worth an increase of $2.00 to $5.00 per acre after the repairs had been made (60 acres at $5.00 per acre is $300.00) (Tr. 96-97, 135, 137-138, 138-141, 143-145, 156, 158).”
+
+At page 18 of the same brief there is another statement to the effect that the “amount of diminution in value of the land” was $300.00.
+
+About two months after the answer brief was filed in this court, plaintiffs filed a reply brief. The reply brief makes no reference at all to the language of the answer brief above quoted and does not deny that the diminution in value shown by the record amounts to $300.00. On the contrary, it contains the following language at page 5:
+
+“ * * * Plaintiffs in error pointed out in their initial brief that this evidence concerning land values was objectionable as being incompetent and refused to cross-examine or offer rebuttal for the reason that they did not choose to waive their objections to the competency of the evidence by disproving defendant in error’s allegations as to land values. We strongly urged at the trial below, and still do, that market value of the land has no application * *
+
+Our extended reference to the pleadings, testimony and prior briefs in this case has not been solely for the purpose of showing that plaintiffs failed to complain of the court’s rulings. Our purpose, rather, has. been to demonstrate the plan and theory upon which plaintiffs tried their case below, and upon which they argued it in the prior briefs on appeal.
+
+The whole record in this case justifies the conclusion that plaintiffs tried their case upon the theory that the “cost of performance” would be the sole measure of damages and that they would recognize no other. In view of the whole record in this case and the original briefs on appeal, we conclude that they so tried it with notice that defendant would contend for the “diminution in value” rule. The testimony to which they specifically refer in the petition for rehearing shows that the trial court properly excluded defendant’s evidence concerning lands other than the 60 acres described in the petition because such evidence was not within the scope of the pleadings. At no time did plaintiffs ask permission to amend their petition, either with or without prejudice to trial, so as to describe all of the lands they own or lease, and no evidence was admitted which could broaden the scope of the petition.
+
+Plaintiffs’ petition described 60 acres of land only; plaintiffs offered no evidence on the question of “diminution in value” and objected to similar evidence offered by the defendant; their motion for new trial contained no allegation that they had been prevented from offering evidence on this question; in their reply brief they did not controvert the allegation in defendant’s answer brief that the record showed a “dim*119inution in value” of only $300.00; and in view of the stipulation they admittedly made in the trial court, their statement in petition for rehearing that the court’s instructions on the measure of damages came as a “complete surprise” and “did not afford them the opportunity to prepare and introduce evidence under the ‘diminution in value’ rule” is not supported by the record.
+
+We think plaintiffs’ present position is that of a plaintiff in any damage suit who has failed to prove his damages — opposed by a defendant who has proved plaintiff’s damages; and that plaintiffs’ complaint that the record does not show the total “diminution in value” to their lands comes too late. It is well settled that a party will not be permitted to change his theory of the case upon appeal. Knox v. Eason Oil Co., 190 Okl. 627, 126 P.2d 247.
+
+Also, plaintiffs’ expressed fear that by introducing evidence on the question of “diminution in value” they would have waived their objection to similar evidence by defendant was not justified. Vogel v. Fisher et al., 203 Okl. 657, 225 P.2d 346; 53 Am.Jur. Trial, Sec. 144.
+
+It is suggested in a brief of amici curiae that our decision in this case has resulted in an impairment of the obligation of the contract of the parties, in violation of Article 1, Section 10, of the Constitution of the United States, and in that connection the only case cited is Sturges v. Crowninshield, 4 Wheat 122, 17 U.S. 1229, 4 L.Ed. 529 (1819). In their brief, amici curiae quote language from the Lawyer’s Edition notes of Mr. Stephen K. Williams, in which he summarized the “points and authorities” of one of the counsel appearing before the U. S. Supreme Court.
+
+Sturges v. Crowninshield was an early case in which the Supreme Court considered the power of a state to enact bankruptcy laws, and the extent, if any, to which such power is limited by Article 1, Section 10 of the Constitution. The contracts concerned consisted of promissory notes executed in March, 1811, and the bankruptcy law under which the promisor claimed a discharge was not enacted until April 3, 1811. In a memorable opinion written by Chief Justice Marshall, the court held that insofar as the bankruptcy law purported to discharge the obligations of contracts executed before its enactment, it was unconstitutional and void.
+
+The same situation does not exist here. 23 O.S.1961 §§ 96 and 97, cited in our original opinion, were a part of the Revised Laws of 1910 (R.L.1910) Sections 2889 and 2890) and have been in force, in this state, in unchanged form, since that codification was adopted by the legislature in 1911. The lease contract concerned in the case now before us was not executed until 1954.
+
+Nor do we agree that our decision itself (as opposed to the statutes cited therein as controlling) impairs the obligations of the contract concerned. It may be conceded that at one time there was respectable authority for the proposition that the “contract” clause was violated by a judicial decision which overruled prior decisions, upon the strength of which contract rights.had been acquired. In this connection, it should be noted that our decision overrules no prior holdings of this court upon which the contracting parties could be said to have relied. Even if it did,
+
+“ * * * it is now definitely and authoritatively settled that such prohibition in federal and state constitutions relate to legislative action and not to judicial decisions. Thus, they do not apply to the decision of a state court, where such decision does not expressly, or by necessary implication, give effect to a subsequent law of tire state whereby the obligation of the contract is impaired. * * * ” 16 C.J.S. Constitutional Law § 280.
+
+To the same effect, see 12 Am.Jur. Constitutional Law, Sec. 398.
+
+Our decision herein overrules no prior holdings of this court, and it does not give effect to a subsequent law of this state. It therefore cannot be said to impair the *120obligations of the contract of the parties here concerned.
+
+The petition for rehearing is denied.
+
+HALLEY, V. C. J., and WELCH, DAVISON and JOHNSON, JJ., concur.
+
+BLACKBIRD, C. J., and WILLIAMS, IRWIN and BERRY, JJ., dissent.
